@@ -11,12 +11,12 @@
 </head>
 <body>
   <!--Header Section-->
-    <header>
+    <header id="nav-fixed">
         <section class="head-top py-2 px-3">
             SONY
         </section>
         <!--Header Section-->
-        <nav id="nav-fixed" class="navbar navbar-expand-xl navbar-light">
+        <nav class="navbar navbar-expand-xl navbar-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +47,8 @@
                   </li>
                 </ul>
                 <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <a class="nav-link active text-dark">Supporto</a>
+                  <button type="button" class="btn-sm btn-dark button-radio">Accedi</button>
                   <div id="lens-box" class="mrg-lft-15"><img src="./img/lens.svg" alt="Search"></div> 
                 </form>
               </div>
@@ -57,9 +58,12 @@
     <!--Main Section-->
     <main>
       <!--First Section-->
-      <section class="big-img-box">
+      <section class="big-img-box container-fluid">
         <img src="./img/jumbo-bg.png" alt="">
+        <div class="row"></div>
+         
       </section>
+      <!--Second Section-->
     </main>
     <!--Footer Section-->
     <footer></footer>
