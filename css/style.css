@@ -129,7 +129,11 @@ main .background-img1{
 }
 
 .w-90 img{
-    width: 100%;
+    width: 80%;
     height: auto;
     object-fit: contain;
+}
+
+.jstf-cntnt-btwn{
+    justify-content: space-between;
 }
