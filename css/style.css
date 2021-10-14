@@ -5,6 +5,7 @@
 
 body{
     font-family: Arial;
+    font-size: 17px;
 }
 
 @media screen and (max-width:550px) {
@@ -13,16 +14,32 @@ body{
     }
 }
 
+/*Utility*/
 .bg-color-black{
     background-color: black;
+}
+
+.button-radio{
+    border-radius: 30px;
+ }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 700;
+}
+
+.brd-style-0{
+    border-style: none;
 }
 
 /*Margin/Padding*/
 .mrg-right-15{
     margin-right: 15px;
 }
-
-
 
 .mrg-lft-15{
     margin-left: 15px;
@@ -100,9 +117,6 @@ nav ul .mrg-right-15 i{
     color: rgb(179, 179, 179);
 }
 
-.button-radio{
-   border-radius: 30px;
-}
 
 /*Main Section*/
 main .big-img-box{
@@ -175,4 +189,6 @@ main .background-img2{
     position: relative;
     top: 4%;
 }
+
+/*Explore Section*/
 
