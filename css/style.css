@@ -40,6 +40,19 @@ body{
     padding-top: 100px;
 }
 
+/*Dimension*/
+.w-70{
+    width: 70%;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.w-90{
+    width: 90%;
+}
+
 /*Header Section*/
 header{
     font-family:helvetica;
@@ -130,9 +143,7 @@ main .background-img1{
     margin-bottom: 20px;
 }
 
-.w-90{
-    width: 90%;
-}
+/*Third Section*/
 
 .w-90 img{
     width: 80%;
@@ -142,5 +153,19 @@ main .background-img1{
 
 .jstf-cntnt-btwn{
     justify-content: space-between;
+}
+
+/*Fourth Section*/
+main .background-img2{
+    height: 80vh;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.big-img-box  #special {
+    position: relative;
+    top: 4%;
 }
 
