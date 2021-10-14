@@ -194,3 +194,13 @@ main .background-img2{
 .bg-plus{
     background-color: rgba(190, 188, 187, 1);
 }
+
+.bg-plus .row .title-plus{
+    width: 50%;
+}
+
+.bg-plus .row .title-plus img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
