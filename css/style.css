@@ -30,6 +30,10 @@ body{
     margin-right: 0px;
 }
 
+.pdd-tp-100{
+    padding-top: 100px;
+}
+
 /*Header Section*/
 header{
     font-family:helvetica;
@@ -118,4 +122,14 @@ main .background-img1{
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+.w-90{
+    width: 90%;
+}
+
+.w-90 img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
