@@ -190,5 +190,7 @@ main .background-img2{
     top: 4%;
 }
 
-/*Explore Section*/
-
+/*Plus Section*/
+.bg-plus{
+    background-color: rgba(190, 188, 187, 1);
+}
