@@ -221,3 +221,11 @@ main .background-img2{
     background-color: rgba(217, 218, 220, 1);
     color: rgba(45, 100, 230, 1);
 }
+
+/*Sale Section*/
+
+.box img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
