@@ -208,7 +208,7 @@ main .background-img2{
 
 .bg-plus .row .banner img{
     width: 100%;
-    height: auto;
+    height: 400px;
     object-fit: contain;
 }
 
@@ -228,4 +228,13 @@ main .background-img2{
     width: 100%;
     height: auto;
     object-fit: contain;
+}
+
+/*Now Section*/
+.bg-col-blu{
+    background-color: rgba(22, 28, 59, 1);
+}
+
+.bg-col-blu .row .color-blue{
+    color: rgba(22, 28, 59, 1);
 }
