@@ -21,6 +21,7 @@ body{
 
 .button-radio{
     border-radius: 30px;
+    position: relative;
  }
 
 h1,
@@ -39,6 +40,25 @@ h6{
 .icon{
     font-size: 10px;
     vertical-align: top;
+}
+
+.border-act{
+    border: 2px solid black;
+    border-radius: 20px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 9% 48%;
+}
+
+.border-act:active{
+    opacity: 1;
+}
+
+.opacity-0{
+    opacity: 1;
 }
 
 /*Margin/Padding*/
@@ -232,7 +252,7 @@ main .background-img2{
 /*Plus Section*/
 .bg-plus{
     background-color: rgba(190, 188, 187, 1);
-    height: 400px;
+    max-height: 400px;
 }
 
 .bg-plus .row .title-plus{
@@ -247,7 +267,7 @@ main .background-img2{
 
 .bg-plus .row .banner img{
     width: 100%;
-    height: 400px;
+    min-height: 400px;
     object-fit: contain;
 }
 
